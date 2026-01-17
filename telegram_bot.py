@@ -56,7 +56,7 @@ async def get_prayer_times(latitude, longitude):
         params = {
             'latitude': latitude,
             'longitude': longitude,
-            'method': 2  # Islamic Society of North America (ISNA)
+            'method': 4  # Makkah (Saudi Arabia) - O'zbekiston uchun to'g'ri
         }
         
         response = requests.get(url, params=params, timeout=10)
